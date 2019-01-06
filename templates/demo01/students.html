@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生信息</title>
+</head>
+<body>
+<p{{ 输出值，可以是变量，也可以对象属性 }}></p>
+<h1>学生信息表</h1>
+<ul>
+
+    {% for student in students %}
+    <li>
+    <a href="#">{{ student.gname }}</a>
+    </li>
+    {% endfor %}
+
+</ul>
+</body>
+</html>
