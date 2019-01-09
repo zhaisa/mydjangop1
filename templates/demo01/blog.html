@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>班级信息</title>
+    <title>博客首页</title>
 </head>
 <body>
-  {% for grade in grades %}
+{% for blog in blogs %}
     <li>
-    <a href="{{ grade.id }}">{{ grade.gname }}</a>
+    <a href="{{ blog.id }}">{{ blog.author }}</a>
     </li>
     {% endfor %}
 </body>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内容首页</title>
+</head>
+<body>
+{% for blogco in blogcos %}
+    <li>
+    {{ blogco.id }},{{ blog.use }},{{ blog.status }},{{ blog.head }},{{ blog.memory }},{{ blog.cpu }},{{ blog.cipan }},{{ blog.operating }},{{ blog. belonghouse }},{{ blog.belonggroup }},
+    </li>
+    {% endfor %}
+</body>
+</html>
