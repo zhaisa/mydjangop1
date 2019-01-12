@@ -3,7 +3,7 @@ from django.contrib import admin
 
 # Register your models here.
 from django.contrib import admin
-from demo01.models import Blog
+from demo01.models import Blog,Blogcon
 from django.db import models
 from django.utils.html import format_html
 
@@ -34,6 +34,11 @@ class BlogAdmin(admin.ModelAdmin):
 
     # fk_fields 设置显示外键字段
   #  fk_fields = ('machine_room_id',)
+@admin.register(Blogcon)
+class BlogcoAdmin(admin.ModelAdmin):
+    list_display = ('machine_room_id','use','status','head','type','memory','cpu','cipan','operating','belonghouse','belonggroup')
+    list_per_page = 10
+
 
 class MyAdminSite(admin.AdminSite):
     admin.site.site_header = '融贝测试管理系统'  # 此处设置页面显示标题

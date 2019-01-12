@@ -28,3 +28,5 @@ def blog(request):
 def blogco(request):
     blogcolist=Blogcon.objects.all()
     return render(request,'demo01/blogco.html',{"blogcos":blogcolist})
+def rongbeitask(request):
+    return render(request,'demo01/rongbeitask.html')

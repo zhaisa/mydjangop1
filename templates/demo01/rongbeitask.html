@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>融贝测试相关任务</title>
+   <script>
+          function to(){
+            var  getval =document.getElementById("pool_id").value;
+            var  getva2 =document.getElementById("invest_id").value;
+            document.location=("http://rongbeiadmin.51dmoz.com/StandardRediliveryFinacial/scanActiveStandardIntoRecast?pool_id="+getval+"&invest_id="+getva2);
+            window.open(document.location)
+          }
+   </script>
+
+
+</head>
+<body>
+
+
+<h1>融贝测试相关任务</h1>
+<a href="http://rongbeiadmin.51dmoz.com/WeekRiseApi/repaymentTask" target="_blank">生成回款计划</a><br>
+
+<a href="#" target="_blank">小标复投到省心投</a><p>pool_id<input type="text" id="pool_id" name="fname" /></p>
+<p>invest_id<input type="text" id="invest_id" name="fname" /></p> <input type="button"  value="提交"  onclick="to()"  >
+
+
+
+
+
+
+
+</body>
+</html>

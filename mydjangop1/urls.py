@@ -16,8 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url,include
+from demo01.views import rongbeitask
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^',include('demo01.urls'))
+    url(r'^',include('demo01.urls')),
+
 ]
