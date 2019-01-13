@@ -1,4 +1,3 @@
-import Record as Record
 from django.contrib import admin
 
 # Register your models here.
