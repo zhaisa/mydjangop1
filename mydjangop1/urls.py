@@ -21,5 +21,6 @@ from demo01.views import rongbeitask
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^',include('demo01.urls')),
+    url(r'^demo01/',include("demo01.urls"))
 
 ]

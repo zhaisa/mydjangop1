@@ -82,7 +82,7 @@ DATABASES = {
             'isolation_level':None
         },
         'NAME':'mydjango',
-        'HOST':'192.168.1.106',
+        'HOST':'127.0.0.1',
         'USER':'root',
         'PASSWORD':'',
         'PORT':'3306',

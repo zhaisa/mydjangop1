@@ -7,5 +7,6 @@ urlpatterns=[
     url(r'^grades/(\d+)$',views.gradesstudets),
     url(r'^blog/$',views.Blog),
     url(r'^blogco/$',views.Blogcon),
-    url(r'^rongbei$',views.rongbeitask)
+    url(r'^rongbei$',views.rongbeitask),
+    url(r'^hello/$', views.hello)
 ]
