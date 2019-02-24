@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/mydjangop1.iml" filepath="$PROJECT_DIR$/.idea/mydjangop1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mylocust/.idea/mylocust.iml" filepath="$PROJECT_DIR$/../mylocust/.idea/mylocust.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../myrequest/.idea/myrequest.iml" filepath="$PROJECT_DIR$/../myrequest/.idea/myrequest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../seleniumforunitest/.idea/seleniumforunitest.iml" filepath="$PROJECT_DIR$/../seleniumforunitest/.idea/seleniumforunitest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../zqxt/.idea/zqxt.iml" filepath="$PROJECT_DIR$/../zqxt/.idea/zqxt.iml" />
     </modules>
   </component>
 </project>

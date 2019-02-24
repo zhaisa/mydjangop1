@@ -1,0 +1,44 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="3.7" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="15">
+            <item index="0" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="1" class="java.lang.String" itemvalue="html5lib" />
+            <item index="2" class="java.lang.String" itemvalue="MySQL-python" />
+            <item index="3" class="java.lang.String" itemvalue="django-appconf" />
+            <item index="4" class="java.lang.String" itemvalue="wechat-sdk" />
+            <item index="5" class="java.lang.String" itemvalue="python-memcached" />
+            <item index="6" class="java.lang.String" itemvalue="django_compressor" />
+            <item index="7" class="java.lang.String" itemvalue="django-grappelli" />
+            <item index="8" class="java.lang.String" itemvalue="Pygments" />
+            <item index="9" class="java.lang.String" itemvalue="Django" />
+            <item index="10" class="java.lang.String" itemvalue="django-redis" />
+            <item index="11" class="java.lang.String" itemvalue="lxml" />
+            <item index="12" class="java.lang.String" itemvalue="DjangoUeditor" />
+            <item index="13" class="java.lang.String" itemvalue="pyquery" />
+            <item index="14" class="java.lang.String" itemvalue="baidubce" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django.core.url" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
